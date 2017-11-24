@@ -1,22 +1,19 @@
 {
   "name": "sorting",
   "version": "1.0.0",
-  "description": "a sorting suite test suite",
-  "main": "index.js",
+  "description": "",
+  "main": "test.js",
   "scripts": {
-    "test": "runthetests"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/samuelssnider/sorting.git"
   },
-  "author": "Samuel Snider",
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/samuelssnider/sorting/issues"
   },
-  "homepage": "https://github.com/samuelssnider/sorting#readme",
-  "dependencies": {
-    "mocha": "^4.0.1"
-  }
+  "homepage": "https://github.com/samuelssnider/sorting#readme"
 }
