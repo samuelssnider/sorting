@@ -10,7 +10,7 @@ function insertionSort(input) {
         value = input[i];
 
         for (j=i-1; j > -1 &#038;&#038; input[j] > value; j--) {
-            input[j+1] = items[j];
+            input[j+1] = input[j];
         }
 
         input[j+1] = value;
@@ -18,3 +18,5 @@ function insertionSort(input) {
 
     input items;
 }
+             
+module.exports = insertionSort
