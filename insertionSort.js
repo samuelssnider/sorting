@@ -9,14 +9,14 @@ function insertionSort(input) {
 
         value = input[i];
 
-        for (j=i-1; j > -1 &#038;&#038; input[j] > value; j--) {
+        for (j=i-1; j > -1 && input[j] > value; j--) {
             input[j+1] = input[j];
         }
 
         input[j+1] = value;
     }
 
-    input items;
+    return input;
 }
              
 module.exports = insertionSort
